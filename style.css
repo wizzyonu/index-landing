@@ -1,0 +1,129 @@
+.main-container{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.navigation{
+  background-color: black;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+#convert-flow{
+  height: 30px;
+  background-color: white;
+  border-radius: 30px 20px 40px ;
+}
+.navigation-features{
+  color: white;
+ 
+  text-decoration: none;
+}
+ol{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.button{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+#sign-in{
+  color: white;
+  background:transparent ;
+  border-style: none;
+  height: 40px;
+  width: 70px;
+}
+#sign-up{
+  background: transparent;
+  color: white;
+  border-color: white;
+  height: 40px;
+  width: 100px;
+}
+
+.container-2{
+  background:linear-gradient(60deg,black, white, black  );
+  color: black;
+
+}
+.assited{
+  display: flex;
+
+ gap: 300px;
+ 
+
+
+}
+#article{
+ width: 500px;
+ height: 400px;
+ margin: 10px;
+ border-radius: 40px 20px 40px 20px;
+}
+#landing-page{
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.container-3{
+  background-color: black;
+  color: white;
+}
+h3{
+  text-align: center;
+  margin: 10px;
+}
+.Integration{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.chip{
+  height: 40px;
+}
+.chip-set{
+  height: 200px;
+  width: 300px;
+  border: 2px black solid;
+  text-align: center;
+  border-radius: 20px 10px 20px 0 ;
+}
+.Explore{
+  background-color: black;
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+}
+#convert{
+  background-color: white;
+  height: 30px;
+  position: relative;
+  left: 40%;
+  margin-top: 10px;
+}
+.container{
+  width: 100%;
+}
+@media (max-width:650px) {
+  body{
+    width: 100%;
+  }
+  .assited{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom:10px;
+  }
+  #convert{
+    position: relative;
+    left: 25%;
+  }
+  
+}
